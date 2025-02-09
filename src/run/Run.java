@@ -1,14 +1,12 @@
 package run;
 
 
-import 입문.짝수는싫어요.Solution;
+import 입문.k의_개수.Solution;
 
 public class Run {
     public static void main(String[] args) {
 
-        int n = 10;
-
         Solution solution = new Solution();
-        solution.solution(n);
+        solution.solution(1,13,1);
     }
 }
